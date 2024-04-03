@@ -1,0 +1,753 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,300;0,400;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Volkhov&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* ABOUT COMMENCE */
+.About{
+  width: 100%;
+  margin: auto;
+}
+.headerAhero1{
+  width: 80%;
+  margin: auto;
+}
+.headerAhero1{
+  background-image: url(Images/Abackgrdcolor.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: url(Images/Abackgrdcolor.png);
+  background-blend-mode: multiply;
+}
+
+.Aheader{
+  width: 75%;
+  margin: auto;
+}
+.Aheader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  margin-bottom: 3rem;
+}
+.Aside2{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.Aside2 nav{
+display: flex;
+gap: .7rem;
+}
+
+nav li{
+list-style: none;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500px;
+color: white;
+}
+
+nav a{
+text-decoration: none;
+color: white;
+}
+
+nav :hover{
+  color: yellowgreen;
+}
+
+.furms1 input{
+padding: 0.4rem 1rem;
+border-radius: 18px;
+background: #EFEFEF;
+border: 1px solid #E8E8E8;
+font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+border: none;
+outline-style: none;
+}
+
+.furms1 button{
+padding: 0.4rem 0.7rem;
+border: 1px solid #E8E8E8;
+border-radius: 15px ;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px; 
+color: #EF2779;
+}
+
+.furms1 button:hover{
+  background: yellowgreen;
+}
+/* Aheader ends */
+
+.Ahero1{
+  width: 85%;
+  margin: auto;
+  padding-bottom: 8rem;
+}
+.Ahero1 h4{
+font-family: Roboto;
+font-size: 30px;
+font-weight: 500;
+text-align: center;
+color: white;
+}
+
+.Ahero1 p{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 20px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  padding: 0.5rem 0rem 1.5rem 0rem;
+  color: white;
+}
+
+.Ahero1 button{
+  padding: 0.3rem 1rem;
+  border-radius: 8px;
+  opacity: 0px;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500px;
+  border-style: none;
+  margin-bottom: 2rem;
+  color: black;
+}
+
+.Ahero1 button:hover{
+  background: yellowgreen;
+}
+
+.Ahero1 h6{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500px;
+  letter-spacing: -0.0167em;
+  text-align: center;
+  color: white;
+  }
+
+  .imageC{
+    width: 8.5%;
+    margin: auto; 
+    padding: 0.5rem 0;
+  }
+/* Ahero1 ends */
+
+
+.Ahero2{
+  width: 70%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem 0 4rem 0 ;
+}
+
+
+.sideA{
+  width: 60%;
+  display: flex;
+  margin: auto;
+}
+
+.item1{
+  padding-bottom: 1rem;
+}
+
+.item1 h6{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 600px;
+text-align: left;
+padding: 0.5rem 0;
+color: #252F40;
+
+}
+
+.item1 p{
+font-family: Roboto;
+font-size: 14px;
+font-weight: 200px;
+line-height: 20px;
+text-align: left;
+width: 85%;
+color: #67748E;
+}
+
+.sideB{
+  width: 40%;
+  margin: auto;
+  background-color: #FFFFFF;
+  box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.3);
+  padding: 1rem 1rem;
+  border-radius: 15px;
+  
+}
+
+.sideB img{
+  width: 100%;
+  border-radius: 10px;
+  
+}
+
+.sideB h6{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500px;
+  padding-top: 1rem;
+  margin: auto;
+  text-align: left;
+  color: #252F40;
+}
+
+.sideB P{
+font-family: Roboto;
+font-size: 14px;
+font-weight: 200px;
+line-height: 20px;
+width: 80%;
+color: #67748E;
+padding: 0.6rem 0;
+text-align: left;
+}
+
+/* Ahero2 ends */
+
+.Ahero3{
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  background-image: url(Images/Ahero3background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5rem;
+  margin-bottom: 0rem;
+  margin-left: 10rem;
+}
+
+.top h3{
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 700px;
+text-align: left;
+color: white;
+padding-bottom: 0.5rem;
+}
+
+.top p{
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 200px;
+line-height: 18px;
+text-align: left;
+color: white;
+}
+.top{
+  width: 75%;
+  margin: auto;
+}
+.Acards{
+  width: 80%;
+  margin: auto;
+}
+.textside h4{
+  font-family: Open Sans;
+  font-size: 17px;
+  font-weight: 600px;
+  text-align: left;
+  color: #252F40;
+
+  }
+
+.textside h5{
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 300px;
+  line-height: 25px;
+  text-align: left;
+  color: #67748E;
+  width: 95%;
+}
+
+.textside h6{
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 300;
+line-height: 18px;
+text-align: left;
+color: #17C1E8;
+}
+
+.lane1{
+  display: flex;
+  padding: 1rem 1rem;
+  gap: 1rem;
+}
+
+.lane2{
+  display: flex;
+  padding: 0rem 1rem 3rem 1rem;
+  gap: 1rem;
+}
+
+.card{
+  display: flex;
+  gap: 0.3rem;
+  align-items:center;
+  background-color: #FFFFFF;
+  box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.3);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+/* Ahero3 ends */
+
+.Ahero4{
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  background: #F8F9FA;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 3rem;
+  
+}
+
+.firstline{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.secondline{
+  width: 97%;
+  margin: auto;
+  display: flex;
+  padding: 4rem 0 5rem 0;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.itemz1 h3{
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 700px;
+  margin: auto;
+  text-align: center;
+  color: #2152FF;
+  
+}
+
+.itemz1 h5{
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600px;
+  margin: auto;
+  text-align: center;
+  color: #252F40;
+}
+
+.itemz1 h6{
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 25px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  color:#67748E;
+}
+
+/* Ahero4 ends */
+
+.Ahero5{
+  width: 80%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.footA h3{
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 600px;
+text-align: left;
+color: #0a2047;
+padding: 1rem 0;
+}
+
+.footA h5{
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 100px;
+line-height: 22px;
+text-align: left;
+color: #252F40;
+width: 80%;
+padding: 0rem 0rem 1rem 0;
+}
+
+.enter input{
+padding: 0.3rem 4rem;
+border-radius: 8px ;
+outline-width: 1px;
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 400px;
+text-align: left;
+margin: auto;
+color: #495057;
+}
+
+.enter button {
+padding: 0.6rem 1.7rem;
+border-radius: 8px;
+font-family: Open Sans;
+font-size: 12px;
+font-weight: 700;
+line-height: 12px;
+letter-spacing: -0.034em;
+text-align: center;
+background: linear-gradient(135deg, #21D4FD 0%, #2152FF 100%);
+border-style: none;
+}
+
+.enter button:hover{
+  background: yellowgreen;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1440px) {
+  .textside h5{
+    font-size: 12.5px;
+    width: 100%;
+  }
+  .Ahero5{
+    width: 87%;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .headerAhero1{
+    width: 90%;
+    margin: auto;
+  }
+  .Aheader{
+    width: 85%;
+    margin: auto;
+  }
+  .Aheader{
+    margin-bottom: 5rem;
+  }
+  .Ahero1 p{
+    font-size: 16px;
+    line-height: 25px;
+    width: 77%;
+  }
+  .imageC{
+    width: 11%;
+  }
+  .item1 p{
+    font-size: 12px;
+    width: 100%;
+    }
+  .Ahero2{
+      width: 80%;
+    }
+  .sideB P{
+  font-size: 13px;
+  width: 95%;
+  }
+  .Ahero3{
+    width: 92%;
+    margin-left: 3rem;
+  }
+  .textside h5{
+    font-size: 9px;
+    width: 100%;
+  }
+  .Ahero4{
+    width: 90%;
+  }
+  .itemz1 h6{
+    font-size: 14px;
+    width: 90%;
+  }
+  .Ahero5{
+    width: 100%;
+  }
+  .footB img{   
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .headerAhero1{
+    width: 95%;
+    margin: auto;
+}
+.side1 img{
+  width: 90%;
+}
+.Aheader{
+  width: 80%;
+  margin: auto;
+}
+.Aheader{
+  margin-bottom: 5rem;
+}
+nav li{
+  display: none;
+}
+.furms1{
+  display: none;
+}
+.Ahero1 p{
+  font-size: 16px;
+  width: 85%;
+}
+.imageC{
+  width: 12%;
+}
+.Ahero2{
+  width: 80%;
+}
+.Ahero3{
+  width: 98%;
+  margin-left: 1rem;
+}
+.textside h5{
+  font-size: 8px;
+  width: 100%;
+}
+.Ahero4{
+  width: 98%;
+}
+.itemz1 h6{
+  font-size: 12px;
+  width: 88%;
+}
+.footA h5{
+  font-size: 12px;
+  width: 95%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+.Ahero1 p{
+  font-size: 12px;
+  width: 100%;
+}
+.imageC{
+  width: 18%;
+}
+.Ahero2{
+  width: 100%;
+  margin: auto;
+  flex-direction: column-reverse;
+}
+.sideA{
+  width: 80%;
+  margin: auto;
+  gap: 2rem;
+}
+.sideB{
+  width: 80%;
+  margin: auto;
+}
+.line1 , .line2{
+  margin-top: 3rem;
+}
+.item1 h6{
+  font-size: 16px;
+  font-weight: 600px;
+}
+.item1 p{
+  font-size: 12px;
+  font-weight: 200px;
+  width: 100%;
+}
+.Ahero3{
+  width: 100%;
+  padding-top: 9rem;
+  margin-bottom: 0rem;
+  margin-left: 0rem;
+}
+.textside h5{
+  font-size: 12px;
+  width: 100%;
+}
+  .lane1{
+  display: block;
+  }
+  .lane2{
+  display: block;
+  }
+  .card{
+  display: flex;
+  margin-bottom: 1rem;
+  }
+  .top p{
+  font-size: 10px;
+  width: 100%;
+  }
+  .secondline{
+    width: 97%;
+    margin: auto;
+    display: block;
+  }
+  .itemz1{
+    padding: 2rem;
+  }
+  .itemz1 h6{
+    font-size: 14px;
+    width: 55%;
+  }
+  .Ahero5{
+    width: 100%;
+    flex-direction: column-reverse;
+    margin: auto;
+  }
+  .footB img{   
+    margin-bottom: 3rem;
+  }
+  .footA{   
+    margin-bottom: 3rem;
+  }
+  .footA h5{
+    font-size: 11px;
+    width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+
+.About{
+  width: 100%;
+  margin: auto;
+}
+.Ahero1{
+  width: 100%;
+  margin: auto;
+  padding-bottom: 8rem;
+}
+.Ahero1 h4{
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
+.Ahero1 p{
+  font-size: 13px;
+  font-weight: 300px;
+  width: 100%;
+  margin: auto;
+}
+.imageC{
+  width: 24%;
+}
+.item1 h6{
+  font-size: 14px;
+  font-weight: 400px;
+  width: 100%;
+}
+.item1 p{
+  font-size: 12px;
+  font-weight: 400px;
+  width: 89%;
+}
+.sideA{
+  width: 90%;
+  margin: auto;
+  gap: 1.5rem;
+}
+.sideB P{
+  font-size: 12px;
+  width: 90%;
+  }
+.Ahero3{
+  width: 100%;
+  margin: auto;
+  padding-top: 9rem;
+}
+.lane1{
+  width: 100%;
+  margin: auto;
+}
+.lane2{
+  width: 100%;
+  margin: auto;
+  }
+.top p{
+  font-size: 12px;
+  width: 100%;
+}
+.textside h5{
+  font-size: 12px;
+  width: 100%;
+}
+.firstline img{
+  display: block;
+  width: 80%;
+}
+.secondline{
+  width: 97%;
+  margin: auto;
+  display: block;
+}
+.itemz1{
+  padding: 2rem;
+}
+.itemz1 h6{
+  font-size: 14px;
+  width: 90%;
+}
+.Ahero5{
+  width: 100%;
+  flex-direction: column-reverse;
+  margin: auto;
+}
+.footB img{   
+  margin-bottom: 3rem;
+  width: 100%;
+}
+.footA{   
+  margin-bottom: 3rem;
+}
+.footA h5{
+  font-size: 12px;
+  width: 100%;
+}
+.enter input{
+  margin-bottom: .5rem;
+}
+
+}
